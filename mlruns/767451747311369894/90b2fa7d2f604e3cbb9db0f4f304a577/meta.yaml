@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/90b2fa7d2f604e3cbb9db0f4f304a577/artifacts
+end_time: 1752363751115
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: 90b2fa7d2f604e3cbb9db0f4f304a577
+run_name: xgb_smote_cv
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752363740339
+status: 4
+tags: []
+user_id: vince

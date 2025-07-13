@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/52c7b71f16d54e5da5d388f51d5ee146/artifacts
+end_time: 1752363749082
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: 52c7b71f16d54e5da5d388f51d5ee146
+run_name: selective-carp-916
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752363740339
+status: 3
+tags: []
+user_id: vince

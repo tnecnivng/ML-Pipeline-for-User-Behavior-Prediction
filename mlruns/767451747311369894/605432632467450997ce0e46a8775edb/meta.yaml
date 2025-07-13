@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/605432632467450997ce0e46a8775edb/artifacts
+end_time: 1752363749082
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: 605432632467450997ce0e46a8775edb
+run_name: amusing-deer-603
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752363740339
+status: 3
+tags: []
+user_id: vince

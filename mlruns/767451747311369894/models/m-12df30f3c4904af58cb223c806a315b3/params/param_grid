@@ -1,0 +1,1 @@
+{'clf__n_estimators': [200, 400], 'clf__max_depth': [3, 4]}

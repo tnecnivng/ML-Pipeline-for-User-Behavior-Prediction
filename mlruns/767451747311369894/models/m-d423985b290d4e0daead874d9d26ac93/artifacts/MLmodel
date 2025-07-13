@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/models/m-d423985b290d4e0daead874d9d26ac93/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.1.1
+model_id: m-d423985b290d4e0daead874d9d26ac93
+model_size_bytes: 1029587
+model_uuid: m-d423985b290d4e0daead874d9d26ac93
+prompts: null
+run_id: 3a41361c12ba41549c37d768e18712d6
+utc_time_created: '2025-07-12 23:14:45.406963'

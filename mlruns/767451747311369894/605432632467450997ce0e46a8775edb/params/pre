@@ -1,0 +1,16 @@
+ColumnTransformer(transformers=[('num', StandardScaler(),
+                                 Index(['total_orders', 'total_quantity', 'first_quantity', 'first_revenue',
+       'diversity_first_day', 'first_hour', 'first_dow'],
+      dtype='object')),
+                                ('cat', 'passthrough',
+                                 Index(['country_Australia', 'country_Austria', 'country_Bahrain',
+       'country_Belgium', 'country_Brazil', 'country_Canada',
+       'country_Channel Islan...
+       'country_Japan', 'country_Lebanon', 'country_Lithuania',
+       'country_Malta', 'country_Netherlands', 'country_Norway',
+       'country_Poland', 'country_Portugal', 'country_RSA',
+       'country_Saudi Arabia', 'country_Singapore', 'country_Spain',
+       'country_Sweden', 'country_Switzerland', 'country_USA',
+       'country_United Arab Emirates', 'country_United Kingdom',
+       'country_Unspecified'],
+      dtype='object'))])

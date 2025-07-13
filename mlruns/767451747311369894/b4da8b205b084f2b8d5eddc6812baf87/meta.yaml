@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/b4da8b205b084f2b8d5eddc6812baf87/artifacts
+end_time: 1752364112275
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: b4da8b205b084f2b8d5eddc6812baf87
+run_name: grandiose-hawk-466
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752364103437
+status: 3
+tags: []
+user_id: vince

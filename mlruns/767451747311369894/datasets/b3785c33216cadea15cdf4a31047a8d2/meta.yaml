@@ -1,0 +1,41 @@
+digest: 95e3cca3
+name: dataset
+profile: '{"num_rows": 4339, "num_elements": 190916}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "total_orders", "required":
+  true}, {"type": "long", "name": "total_quantity", "required": true}, {"type": "long",
+  "name": "first_quantity", "required": true}, {"type": "double", "name": "first_revenue",
+  "required": true}, {"type": "long", "name": "diversity_first_day", "required": true},
+  {"type": "boolean", "name": "country_Australia", "required": true}, {"type": "boolean",
+  "name": "country_Austria", "required": true}, {"type": "boolean", "name": "country_Bahrain",
+  "required": true}, {"type": "boolean", "name": "country_Belgium", "required": true},
+  {"type": "boolean", "name": "country_Brazil", "required": true}, {"type": "boolean",
+  "name": "country_Canada", "required": true}, {"type": "boolean", "name": "country_Channel
+  Islands", "required": true}, {"type": "boolean", "name": "country_Cyprus", "required":
+  true}, {"type": "boolean", "name": "country_Czech Republic", "required": true},
+  {"type": "boolean", "name": "country_Denmark", "required": true}, {"type": "boolean",
+  "name": "country_EIRE", "required": true}, {"type": "boolean", "name": "country_European
+  Community", "required": true}, {"type": "boolean", "name": "country_Finland", "required":
+  true}, {"type": "boolean", "name": "country_France", "required": true}, {"type":
+  "boolean", "name": "country_Germany", "required": true}, {"type": "boolean", "name":
+  "country_Greece", "required": true}, {"type": "boolean", "name": "country_Iceland",
+  "required": true}, {"type": "boolean", "name": "country_Israel", "required": true},
+  {"type": "boolean", "name": "country_Italy", "required": true}, {"type": "boolean",
+  "name": "country_Japan", "required": true}, {"type": "boolean", "name": "country_Lebanon",
+  "required": true}, {"type": "boolean", "name": "country_Lithuania", "required":
+  true}, {"type": "boolean", "name": "country_Malta", "required": true}, {"type":
+  "boolean", "name": "country_Netherlands", "required": true}, {"type": "boolean",
+  "name": "country_Norway", "required": true}, {"type": "boolean", "name": "country_Poland",
+  "required": true}, {"type": "boolean", "name": "country_Portugal", "required": true},
+  {"type": "boolean", "name": "country_RSA", "required": true}, {"type": "boolean",
+  "name": "country_Saudi Arabia", "required": true}, {"type": "boolean", "name": "country_Singapore",
+  "required": true}, {"type": "boolean", "name": "country_Spain", "required": true},
+  {"type": "boolean", "name": "country_Sweden", "required": true}, {"type": "boolean",
+  "name": "country_Switzerland", "required": true}, {"type": "boolean", "name": "country_USA",
+  "required": true}, {"type": "boolean", "name": "country_United Arab Emirates", "required":
+  true}, {"type": "boolean", "name": "country_United Kingdom", "required": true},
+  {"type": "boolean", "name": "country_Unspecified", "required": true}, {"type": "integer",
+  "name": "first_hour", "required": true}, {"type": "integer", "name": "first_dow",
+  "required": true}]}'
+source: '{"tags": {"mlflow.user": "vince", "mlflow.source.name": "c:/Users/vince/user-behavior-predictor/src/ubp/train.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

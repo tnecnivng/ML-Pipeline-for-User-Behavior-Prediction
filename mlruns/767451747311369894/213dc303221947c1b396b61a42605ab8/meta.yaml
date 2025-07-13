@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/213dc303221947c1b396b61a42605ab8/artifacts
+end_time: 1752363749082
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: 213dc303221947c1b396b61a42605ab8
+run_name: rebellious-lamb-382
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752363740339
+status: 3
+tags: []
+user_id: vince

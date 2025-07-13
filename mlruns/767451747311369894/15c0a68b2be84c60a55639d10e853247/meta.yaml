@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/15c0a68b2be84c60a55639d10e853247/artifacts
+end_time: 1752364838906
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: 15c0a68b2be84c60a55639d10e853247
+run_name: valuable-duck-843
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752364830117
+status: 3
+tags: []
+user_id: vince

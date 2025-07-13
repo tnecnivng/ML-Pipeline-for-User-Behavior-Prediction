@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/models/m-dee64b5fcabc4ae4a528cbf3e642da0b/artifacts
+creation_timestamp: 1752364837118
+experiment_id: '767451747311369894'
+last_updated_timestamp: 1752364838893
+model_id: m-dee64b5fcabc4ae4a528cbf3e642da0b
+model_type: null
+name: best_estimator
+source_run_id: 4b7caa001d99482a985365edd94981ab
+status: 2
+status_message: null

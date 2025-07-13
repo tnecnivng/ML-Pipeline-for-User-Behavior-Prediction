@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/9d94b439f3b84d10b71cf34ecf076338/artifacts
+end_time: 1752362481016
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: 9d94b439f3b84d10b71cf34ecf076338
+run_name: judicious-moose-598
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752362472415
+status: 3
+tags: []
+user_id: vince

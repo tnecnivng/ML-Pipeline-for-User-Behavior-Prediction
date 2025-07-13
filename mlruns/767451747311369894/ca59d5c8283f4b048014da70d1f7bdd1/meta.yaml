@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/ca59d5c8283f4b048014da70d1f7bdd1/artifacts
+end_time: 1752364112275
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: ca59d5c8283f4b048014da70d1f7bdd1
+run_name: loud-grub-707
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752364103437
+status: 3
+tags: []
+user_id: vince

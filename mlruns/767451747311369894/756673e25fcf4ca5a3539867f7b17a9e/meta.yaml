@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/756673e25fcf4ca5a3539867f7b17a9e/artifacts
+end_time: 1752362085189
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: 756673e25fcf4ca5a3539867f7b17a9e
+run_name: wistful-fowl-895
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752362076323
+status: 3
+tags: []
+user_id: vince

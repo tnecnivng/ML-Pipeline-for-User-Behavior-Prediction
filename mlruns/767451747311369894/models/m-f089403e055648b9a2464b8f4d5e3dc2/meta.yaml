@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/models/m-f089403e055648b9a2464b8f4d5e3dc2/artifacts
+creation_timestamp: 1752363624308
+experiment_id: '767451747311369894'
+last_updated_timestamp: 1752363626349
+model_id: m-f089403e055648b9a2464b8f4d5e3dc2
+model_type: null
+name: model
+source_run_id: 293ef2a2dd6447d1a0ac466368517f0c
+status: 2
+status_message: null

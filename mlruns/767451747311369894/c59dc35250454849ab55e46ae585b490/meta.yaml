@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/c59dc35250454849ab55e46ae585b490/artifacts
+end_time: 1752363804213
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: c59dc35250454849ab55e46ae585b490
+run_name: incongruous-kite-883
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752363795683
+status: 3
+tags: []
+user_id: vince

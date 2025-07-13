@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/81e1375b0dd34af4beb571efb24e2ef8/artifacts
+end_time: 1752363804213
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: 81e1375b0dd34af4beb571efb24e2ef8
+run_name: handsome-conch-551
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752363795683
+status: 3
+tags: []
+user_id: vince

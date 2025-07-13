@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/31a54d42ab914d14b6349fa45913ba7a/artifacts
+end_time: 1752362481016
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: 31a54d42ab914d14b6349fa45913ba7a
+run_name: bedecked-crow-293
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752362472415
+status: 3
+tags: []
+user_id: vince

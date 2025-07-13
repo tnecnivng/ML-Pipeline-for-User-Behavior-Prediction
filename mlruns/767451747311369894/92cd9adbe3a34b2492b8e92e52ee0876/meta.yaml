@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/92cd9adbe3a34b2492b8e92e52ee0876/artifacts
+end_time: 1752364838906
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: 92cd9adbe3a34b2492b8e92e52ee0876
+run_name: skittish-dog-266
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752364830117
+status: 3
+tags: []
+user_id: vince

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/ae2926aa879e410596bf3db10be0799d/artifacts
+end_time: 1752364112275
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: ae2926aa879e410596bf3db10be0799d
+run_name: mysterious-rook-948
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752364103437
+status: 3
+tags: []
+user_id: vince

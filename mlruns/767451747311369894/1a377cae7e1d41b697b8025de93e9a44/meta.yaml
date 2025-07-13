@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/1a377cae7e1d41b697b8025de93e9a44/artifacts
+end_time: 1752362085189
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: 1a377cae7e1d41b697b8025de93e9a44
+run_name: spiffy-pug-597
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752362076323
+status: 3
+tags: []
+user_id: vince

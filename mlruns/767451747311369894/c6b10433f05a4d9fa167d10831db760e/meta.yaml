@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/c6b10433f05a4d9fa167d10831db760e/artifacts
+end_time: 1752363804213
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: c6b10433f05a4d9fa167d10831db760e
+run_name: amusing-loon-363
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752363795683
+status: 3
+tags: []
+user_id: vince

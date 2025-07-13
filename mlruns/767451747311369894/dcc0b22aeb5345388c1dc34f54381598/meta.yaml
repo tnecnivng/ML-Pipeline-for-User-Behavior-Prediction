@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/dcc0b22aeb5345388c1dc34f54381598/artifacts
+end_time: 1752363628955
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: dcc0b22aeb5345388c1dc34f54381598
+run_name: skittish-dolphin-25
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752363620212
+status: 3
+tags: []
+user_id: vince
