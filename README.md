@@ -36,21 +36,40 @@ Then browse to http://127.0.0.1:5000 to inspect parameters, metrics and artefact
 
 🎯 Key results <small>(reference run)</small>
 
+Score
+| Metric | Score |
+|--------|-------|
+| CV PR-AUC (5-fold) | **0.79** |
+| Hold-out PR-AUC    | **0.94** |
+
+![SHAP summary](reports/feature_importance.png)
+
+<details>
+<summary>Precision-Recall curve</summary>
+
+![PR curve (AUC = 0.65)](reports/pr_curve.png)
+</details>
+
+total_orders and diversity_first_day dominate predictive power.
+SMOTE improved recall@0.6 precision by 9 pp.
+
+
 🗂️ Project layout
-├─ data/                     raw & sample CSVs (git‑ignored)
-├─ mlruns/                   MLflow experiment runs & registry
-├─ models/                   local fallback pickle
-├─ notebooks/                exploratory notebooks
-├─ reports/                  SHAP + screenshot assets
+├─ data/                 raw & sample CSVs (git-ignored)
+├─ mlruns/               MLflow runs & registry
+├─ models/               local fallback pickle
+├─ notebooks/            exploratory notebooks
+├─ reports/              SHAP + screenshots
+│   ├─ feature_importance.png
+│   └─ pr_curve.png
 ├─ scripts/
-│   ├─ shap_report.py        SHAP summary PNG generator
-│   └─ predict.py            batch scorer (registry or local)
+│   └─ shap_report.py    SHAP summary PNG generator
 └─ src/
     └─ ubp/
-        ├─ data.py           load_dataset()
-        ├─ features.py       build_feature_table()
-        ├─ pipeline.py       pipeline helpers
-        ├─ train.py          executed via `python -m ubp.train`
+        ├─ data.py       load_dataset()
+        ├─ features.py   build_feature_table()
+        ├─ pipeline.py   helpers
+        ├─ train.py      executed via `python -m ubp.train`
         └─ __init__.py
 
 🛠️ Local development
