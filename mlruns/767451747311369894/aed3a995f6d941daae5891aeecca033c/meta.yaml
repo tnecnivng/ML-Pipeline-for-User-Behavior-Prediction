@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/aed3a995f6d941daae5891aeecca033c/artifacts
+end_time: 1752531659954
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: aed3a995f6d941daae5891aeecca033c
+run_name: omniscient-snipe-318
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752531650418
+status: 3
+tags: []
+user_id: vince

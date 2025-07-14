@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/bd4b0a90662e4a08a9ed5b5459f6a5df/artifacts
+end_time: 1752531659954
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: bd4b0a90662e4a08a9ed5b5459f6a5df
+run_name: rare-squid-961
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752531650418
+status: 3
+tags: []
+user_id: vince
