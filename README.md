@@ -28,6 +28,7 @@ python -m ubp.train --model-dir models
 
 # 3️⃣  generate SHAP feature-importance plot
 python scripts/shap_report.py          # → reports/feature_importance.png
+```
 
 Start the MLflow UI in another terminal:
 
