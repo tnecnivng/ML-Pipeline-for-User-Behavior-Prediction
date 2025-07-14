@@ -5,11 +5,10 @@ from imblearn.pipeline import Pipeline
 from xgboost import XGBClassifier
 import pandas as pd
 
-# ------------------------------------------------------------------
 def build_pipeline(X: pd.DataFrame, y) -> Pipeline:
     """Return an (unfitted) SMOTE-XGB pipeline with preprocessing."""
     num_cols = X.select_dtypes("number").columns
-    cat_cols = X.select_dtypes("bool").columns        # country dummies are bool
+    cat_cols = X.select_dtypes("bool").columns       
 
     pre = ColumnTransformer([
         ("num", StandardScaler(), num_cols),

@@ -1,10 +1,6 @@
-# src/ubp/features.py
 from __future__ import annotations
 import pandas as pd
 
-# ────────────────────────────────────────────
-# helper functions
-# ────────────────────────────────────────────
 def _first_purchase_metrics(df: pd.DataFrame) -> pd.DataFrame:
     first_tx = (
         df.sort_values("InvoiceDate")
@@ -107,25 +103,7 @@ def _diversity_7days(df: pd.DataFrame,
           .rename(columns={"StockCode": "diversity_7d"})
     )
 
-# ────────────────────────────────────────────
-# main entry point
-# ────────────────────────────────────────────
 def build_feature_table(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Turn the cleaned Online-Retail-II data (`df`) into the 57-column modelling
-    table with features **and** the target/temporal columns.
-
-    Parameters
-    ----------
-    df : pd.DataFrame
-        Cleaned transactions (same structure as in the notebooks).
-
-    Returns
-    -------
-    pd.DataFrame
-        57-column table ready for modelling.
-    """
-    # ── user-level aggregates (one row per customer) ────────────────────────
     user_agg = (
         df.groupby("CustomerID", as_index=False)
           .agg(
@@ -136,7 +114,6 @@ def build_feature_table(df: pd.DataFrame) -> pd.DataFrame:
           )
     )
 
-    # ── feature blocks (re-use code from notebook) ──────────────────────────
     first_tx           = (
         df.sort_values("InvoiceDate")
           .groupby("CustomerID", as_index=False)
@@ -151,7 +128,6 @@ def build_feature_table(df: pd.DataFrame) -> pd.DataFrame:
     feat_time          = _time_of_first_purchase(first_tx)
     feat_diversity_7d  = _diversity_7days(df, user_agg)
 
-    # ── combine all feature blocks ──────────────────────────────────────────
     feature_df = (
         user_agg[["CustomerID", "total_orders", "total_quantity",
                   "first_date", "last_date"]]               # keep dates
@@ -165,8 +141,6 @@ def build_feature_table(df: pd.DataFrame) -> pd.DataFrame:
           .fillna(0)
     )
 
-    # ── target + leak-aware final table ─────────────────────────────────────
-    # create target outside the function in your notebook OR here; adjust as needed
     feature_df["did_repurchase_7d"] = df.groupby("CustomerID")["InvoiceDate"]\
                                          .transform(lambda s: (s.diff().dt.days <= 7).any())\
                                          .astype(int)
@@ -179,7 +153,6 @@ def build_feature_table(df: pd.DataFrame) -> pd.DataFrame:
           .values
     )
 
-    # move target/dates to the front if you like
     cols = ["CustomerID", "did_repurchase_7d",
             "first_date", "last_date", "days_to_repurchase"] + \
            [c for c in feature_df.columns
@@ -189,10 +162,6 @@ def build_feature_table(df: pd.DataFrame) -> pd.DataFrame:
 
     return dataset
 
-
-# ────────────────────────────────────────────
-# optional quick manual test
-# ────────────────────────────────────────────
 if __name__ == "__main__":
     # example usage:
     from ubp.data import load_raw, clean_raw

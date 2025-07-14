@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/a593f343d0fc419db163f3cd7d068295/artifacts
+end_time: 1752529577212
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: a593f343d0fc419db163f3cd7d068295
+run_name: rumbling-deer-543
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752529566024
+status: 3
+tags: []
+user_id: vince

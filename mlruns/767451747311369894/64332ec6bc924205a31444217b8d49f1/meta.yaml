@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/64332ec6bc924205a31444217b8d49f1/artifacts
+end_time: 1752529577212
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: 64332ec6bc924205a31444217b8d49f1
+run_name: spiffy-turtle-953
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752529566024
+status: 3
+tags: []
+user_id: vince

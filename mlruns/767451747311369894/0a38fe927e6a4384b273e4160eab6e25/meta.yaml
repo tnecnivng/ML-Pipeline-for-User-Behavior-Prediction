@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/0a38fe927e6a4384b273e4160eab6e25/artifacts
+end_time: 1752529577212
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: 0a38fe927e6a4384b273e4160eab6e25
+run_name: luxuriant-finch-283
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752529566024
+status: 3
+tags: []
+user_id: vince

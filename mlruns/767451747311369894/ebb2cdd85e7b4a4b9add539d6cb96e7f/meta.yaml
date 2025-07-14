@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/ebb2cdd85e7b4a4b9add539d6cb96e7f/artifacts
+end_time: 1752529577212
+entry_point_name: ''
+experiment_id: '767451747311369894'
+lifecycle_stage: active
+run_id: ebb2cdd85e7b4a4b9add539d6cb96e7f
+run_name: adorable-midge-138
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752529566024
+status: 3
+tags: []
+user_id: vince

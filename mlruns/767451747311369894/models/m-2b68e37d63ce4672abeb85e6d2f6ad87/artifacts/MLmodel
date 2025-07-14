@@ -1,0 +1,67 @@
+artifact_path: file:///C:/Users/vince/user-behavior-predictor/mlruns/767451747311369894/models/m-2b68e37d63ce4672abeb85e6d2f6ad87/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.1.1
+model_id: m-2b68e37d63ce4672abeb85e6d2f6ad87
+model_size_bytes: 1034717
+model_uuid: m-2b68e37d63ce4672abeb85e6d2f6ad87
+prompts: null
+run_id: b51dabea6be346d987e7fd0e703d88f7
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "total_orders", "required": true}, {"type": "long",
+    "name": "total_quantity", "required": true}, {"type": "long", "name": "first_quantity",
+    "required": true}, {"type": "double", "name": "first_revenue", "required": true},
+    {"type": "long", "name": "diversity_first_day", "required": true}, {"type": "boolean",
+    "name": "country_Australia", "required": true}, {"type": "boolean", "name": "country_Austria",
+    "required": true}, {"type": "boolean", "name": "country_Bahrain", "required":
+    true}, {"type": "boolean", "name": "country_Belgium", "required": true}, {"type":
+    "boolean", "name": "country_Brazil", "required": true}, {"type": "boolean", "name":
+    "country_Canada", "required": true}, {"type": "boolean", "name": "country_Channel
+    Islands", "required": true}, {"type": "boolean", "name": "country_Cyprus", "required":
+    true}, {"type": "boolean", "name": "country_Czech Republic", "required": true},
+    {"type": "boolean", "name": "country_Denmark", "required": true}, {"type": "boolean",
+    "name": "country_EIRE", "required": true}, {"type": "boolean", "name": "country_European
+    Community", "required": true}, {"type": "boolean", "name": "country_Finland",
+    "required": true}, {"type": "boolean", "name": "country_France", "required": true},
+    {"type": "boolean", "name": "country_Germany", "required": true}, {"type": "boolean",
+    "name": "country_Greece", "required": true}, {"type": "boolean", "name": "country_Iceland",
+    "required": true}, {"type": "boolean", "name": "country_Israel", "required": true},
+    {"type": "boolean", "name": "country_Italy", "required": true}, {"type": "boolean",
+    "name": "country_Japan", "required": true}, {"type": "boolean", "name": "country_Lebanon",
+    "required": true}, {"type": "boolean", "name": "country_Lithuania", "required":
+    true}, {"type": "boolean", "name": "country_Malta", "required": true}, {"type":
+    "boolean", "name": "country_Netherlands", "required": true}, {"type": "boolean",
+    "name": "country_Norway", "required": true}, {"type": "boolean", "name": "country_Poland",
+    "required": true}, {"type": "boolean", "name": "country_Portugal", "required":
+    true}, {"type": "boolean", "name": "country_RSA", "required": true}, {"type":
+    "boolean", "name": "country_Saudi Arabia", "required": true}, {"type": "boolean",
+    "name": "country_Singapore", "required": true}, {"type": "boolean", "name": "country_Spain",
+    "required": true}, {"type": "boolean", "name": "country_Sweden", "required": true},
+    {"type": "boolean", "name": "country_Switzerland", "required": true}, {"type":
+    "boolean", "name": "country_USA", "required": true}, {"type": "boolean", "name":
+    "country_United Arab Emirates", "required": true}, {"type": "boolean", "name":
+    "country_United Kingdom", "required": true}, {"type": "boolean", "name": "country_Unspecified",
+    "required": true}, {"type": "integer", "name": "first_hour", "required": true},
+    {"type": "integer", "name": "first_dow", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-07-14 21:46:17.456813'

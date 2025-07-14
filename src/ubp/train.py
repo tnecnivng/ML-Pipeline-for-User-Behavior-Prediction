@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# scripts/train.py
-# ------------------------------------------------------------
-# Fit an XGB + SMOTE pipeline, log everything to MLflow,
-# and persist the best model to models/xgb_smote_pipeline.pkl
-# ------------------------------------------------------------
 from __future__ import annotations
 
 from pathlib import Path
@@ -23,20 +17,16 @@ from sklearn.model_selection import GridSearchCV, TimeSeriesSplit
 from sklearn.preprocessing   import StandardScaler
 from xgboost                 import XGBClassifier
 
-# ── MLflow ---------------------------------------------------
 import mlflow
 import mlflow.sklearn
 import mlflow.xgboost
 from mlflow.models.signature import infer_signature
 
-# 1) Point MLflow to repo-local  mlruns/  (portable across shells)
 TRACKING_URI = (Path(__file__).resolve().parents[2] / "mlruns").as_uri()
 mlflow.set_tracking_uri(TRACKING_URI)
 
-# 2) Ensure the experiment exists (creates if missing)
 mlflow.set_experiment("repurchase_xgb")
 
-# 3) Enable autologging
 mlflow.autolog(
     disable=False,
     exclusive=False,
@@ -45,9 +35,8 @@ mlflow.autolog(
     log_model_signatures=True,
 )
 
-# ── project modules -----------------------------------------
-from ubp import data          # load_dataset()
-from ubp import features as ft   # build_feature_table()
+from ubp import data          
+from ubp import features as ft   
 
 warnings.filterwarnings("ignore", category=UserWarning)
 
@@ -61,7 +50,7 @@ def main(model_dir: str | Path) -> None:
     model_dir = Path(model_dir)
     model_dir.mkdir(parents=True, exist_ok=True)
 
-    # 1️⃣  Data ------------------------------------------------------------------
+
     dataset = data.load_dataset()
     leak_cols = ["days_to_repurchase", "recency_2nd",
                  "diversity_7d", "freq_3d", "monetary_3d"]
@@ -111,7 +100,7 @@ def main(model_dir: str | Path) -> None:
         verbose=1,
     )
 
-    # 2️⃣  Train & log -----------------------------------------------------------
+    
     with mlflow.start_run(run_name="xgb_smote_cv"):
         gcv.fit(X, y)
         best_pipe = gcv.best_estimator_
@@ -133,16 +122,15 @@ def main(model_dir: str | Path) -> None:
         holdout_pr_auc = average_precision_score(y_test, y_prob)
         print("Hold-out PR-AUC :", holdout_pr_auc)
 
-        # manual metrics
+       
         mlflow.log_metric("thr_opt", thr_opt)
         mlflow.log_metric("holdout_pr_auc", holdout_pr_auc)
 
-        # 3️⃣  Persist locally ----------------------------------------------------
         out_path = model_dir / "xgb_smote_pipeline.pkl"
         joblib.dump(best_pipe, out_path)
         print(f"💾 Pipeline saved to {out_path}")
 
-        # 4️⃣  Log & register model WITHOUT the deprecated artifact_path ---------
+        
         signature = infer_signature(X_test, best_pipe.predict(X_test))
         mlflow.sklearn.log_model(
             sk_model=best_pipe,
