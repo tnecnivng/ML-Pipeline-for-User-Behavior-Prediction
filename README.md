@@ -40,6 +40,27 @@ Metric	Score
 CV PR-AUC (5-fold)	0.79
 Hold-out PR-AUC	0.94
 
+![SHAP summary – top features](reports/feature_importance.png)
+
+<details>
+<summary>📈 Precision–Recall curve</summary>
+
+![PR curve (AUC ≈ 0.65)](reports/pr_curve.png)
+
+</details>
+
+<details>
+<summary>🟦 Confusion matrix @ optimal threshold</summary>
+
+![Confusion matrix](reports/confusion_matrix.png)
+
+</details>
+
+<details>
+<summary>🏅 Top-15 XGBoost feature gains</summary>
+
+![Feature gain bar chart](reports/feature_gain.png)
+
 
 
 <details> <summary>Precision-Recall curve</summary>
