@@ -1,6 +1,3 @@
-"""
-Load the persisted pipeline and score a CSV of new user rows.
-"""
 import click, joblib, pandas as pd
 
 @click.command()

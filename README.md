@@ -48,6 +48,7 @@ Score
 <summary>Precision-Recall curve</summary>
 
 ![PR curve (AUC = 0.65)](reports/pr_curve.png)
+
 </details>
 
 total_orders and diversity_first_day dominate predictive power.
@@ -55,6 +56,7 @@ SMOTE improved recall@0.6 precision by 9 pp.
 
 
 🗂️ Project layout
+
 ├─ data/                 raw & sample CSVs (git-ignored)
 ├─ mlruns/               MLflow runs & registry
 ├─ models/               local fallback pickle
@@ -80,3 +82,5 @@ mlflow ui --port 5000     # open experiment dashboard
 Released under the MIT Licence.
 Dataset courtesy of <UCI Online Retail II Dataset https://archive.ics.uci.edu/dataset/502/online+retail+ii>.
 Project by Vicnent Nguyen – connect on LinkedIn.
+
+![SHAP summary](reports/feature_importance.png)
