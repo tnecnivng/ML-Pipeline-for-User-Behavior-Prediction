@@ -62,15 +62,10 @@ Hold-out PR-AUC	0.94
 
 ![Feature gain bar chart](reports/feature_gain.png)
 
-
-
-<details> <summary>Precision-Recall curve</summary>
-
-
-</details>
 total_orders and diversity_first_day dominate predictive power.
 SMOTE improved recall @ 0.6 precision by 9 pp.
 
+```text
 🗂️ Project layout
 .
 ├─ data/                 raw & sample CSVs (git-ignored)
@@ -94,3 +89,4 @@ SMOTE improved recall @ 0.6 precision by 9 pp.
 Released under the MIT Licence.
 Dataset: UCI Online Retail II.
 Project by Vincent Nguyen — connect on LinkedIn [www.linkedin.com/in/vincentnguyenvn].
+```
