@@ -72,9 +72,6 @@ total_orders and diversity_first_day dominate predictive power.
 SMOTE improved recall @ 0.6 precision by 9 pp.
 
 🗂️ Project layout
-text
-Copy
-Edit
 .
 ├─ data/                 raw & sample CSVs (git-ignored)
 ├─ mlruns/               MLflow runs & registry
@@ -96,4 +93,4 @@ Edit
 📜 Licence & credits
 Released under the MIT Licence.
 Dataset: UCI Online Retail II.
-Project by Vincent Nguyen — connect on LinkedIn.
+Project by Vincent Nguyen — connect on LinkedIn [www.linkedin.com/in/vincentnguyenvn].
