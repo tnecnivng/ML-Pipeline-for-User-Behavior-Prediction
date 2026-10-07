@@ -1,20 +1,20 @@
 #  Customer-Repurchase Predictor
 
-End-to-end ML pipeline that forecasts **the probability a first-time shopper will buy again within seven days**.
+End-to-end ML pipeline that forecasts the probability a first-time shopper will buy again within seven days.
 
 | Layer / Concern     | Technology & Libraries                       |
 |---------------------|----------------------------------------------|
 | Feature engineering | `pandas`, custom RFM / session aggregates    |
 | Model & imbalance   | `XGBoost` (hist) + `SMOTE` (`imblearn`)      |
-| Experiment tracking | **MLflow** (local file store)                |
-| Explainability      | **SHAP** summary & dependence plots          |
+| Experiment tracking | MLflow (local file store)                |
+| Explainability      | SHAP summary & dependence plots          |
 | Reproducibility     | `requirements.txt`, `environment.yml`        |
 
 ---
 
 ## Quick start
 
-> All commands assume you’re at the **repo root**.  
+> All commands assume you’re at the repo root.  
 > Windows ⇢ back-slashes `\` · macOS/Linux ⇢ forward-slashes `/`
 
 ```bash
