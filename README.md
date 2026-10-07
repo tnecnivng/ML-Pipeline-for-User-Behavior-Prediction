@@ -2,7 +2,7 @@
 
 End-to-end ML pipeline that forecasts the probability a first-time shopper will buy again within seven days.
 
-| Layer / Concern     | Technology & Libraries                       |
+| Layer               | Technology & Libraries                       |
 |---------------------|----------------------------------------------|
 | Feature engineering | `pandas`, custom RFM / session aggregates    |
 | Model & imbalance   | `XGBoost` (hist) + `SMOTE` (`imblearn`)      |
