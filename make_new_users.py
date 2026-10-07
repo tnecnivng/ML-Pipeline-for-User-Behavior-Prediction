@@ -26,4 +26,4 @@ out = pl.Path("data") / "new_users.csv"
 out.parent.mkdir(exist_ok=True)
 new_users.to_csv(out, index=False)
 
-print(f"✅  wrote {len(new_users)} rows to {out}")
+print(f"  wrote {len(new_users)} rows to {out}")
